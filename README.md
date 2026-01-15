@@ -1,4 +1,4 @@
-magogaurl.vercel.app/
+[magogaurl.vercel.app](https://magogaurl.vercel.app)
 
 🔗 Encurtador de URL
 
