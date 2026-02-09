@@ -6,35 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encurtador de URL</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 
 <body>
-    <main class="container">
-        <h1>Encurtador de URL</h1>
-        <p class="description">Cole seu link longo abaixo para encurtá-lo.</p>
+    <div class="main-wrapper">
+        <div class="container">
+            <h1>Encurtador de URL</h1>
+    
+            <form id="shorten-form">
+                <div class="input-group">
+                    <input type="url" id="url-input" placeholder="Cole sua URL aqui (ex: https://...)" required
+                        autocomplete="off">
+                    <button type="submit">Encurtar</button>
+                </div>
+            </form>
 
-        <form id="shorten-form">
-            <div class="input-group">
-                <label for="url-input" class="sr-only">URL para encurtar</label>
-                <input type="url" id="url-input" placeholder="Ex: https://seusite.com/muito-longo" required
-                    autocomplete="off">
-                <button type="submit" id="submit-btn">
-                    <span class="btn-text">Encurtar</span>
-                </button>
-            </div>
-        </form>
-
-        <div id="feedback-area" class="hidden">
-            <div class="result-container">
-                <a href="#" id="shortened-link" target="_blank" rel="noopener noreferrer"></a>
-                <button id="copy-btn" title="Copiar link">Copiar</button>
-            </div>
+            <div id="result"></div>
         </div>
-
-        <p id="error-message" class="error hidden"></p>
-    </main>
-
+    </div>
     <script src="script.js"></script>
 </body>
 
