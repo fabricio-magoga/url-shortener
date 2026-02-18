@@ -1,15 +1,15 @@
 /* Variáveis para facilitar manutenção */
 :root {
-    --primary: #007bff;
-    --primary-hover: #0056b3;
-    --bg-color: #f4f7f6;
+    --primary: #5a5a5a;
+    --primary-hover: #4e4e4e;
+    --bg-color: #000000;
     --card-bg: #ffffff;
     --text: #333;
     --border: #ddd;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Monocraft', monospace;
     background: var(--bg-color);
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ body {
     width: 100%;
     max-width: 480px;
     padding: 2rem;
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
     margin: 20px;
     text-align: center;
